@@ -1,0 +1,16 @@
+application: distance-finder
+version: 1
+runtime: python27
+threadsafe: true
+api_version: 1
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /css
+  static_dir: css
+
+- url: /scripts
+  static_dir: scripts

@@ -1,0 +1,19 @@
+body {
+	background-color: #fff;
+	font-family: Arial, sans-serif;
+	padding: 10px 0 0 30px;
+}
+
+input {
+    margin: 5px;
+}
+
+h5 {
+    margin: 0;
+}
+
+#mapCanvas {
+    border: 1px #000 solid;
+    height: 500px;
+    width: 500px;
+}
